@@ -3,7 +3,6 @@ package vorobey_english_ui.test_base;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 
-
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
@@ -23,7 +22,7 @@ public class TestBase {
         Configuration.browserCapabilities = capabilities;
         Configuration.baseUrl = "http://vorobeyenglish.ru";
         Configuration.browserSize = "1920x1080";
-       // Configuration.remote = "https://@selenoid.autotests.cloud/wd/hub";
+        // Configuration.remote = "https://@selenoid.autotests.cloud/wd/hub";
     }
 
     @AfterEach
